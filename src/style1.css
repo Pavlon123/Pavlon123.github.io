@@ -1,0 +1,89 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	width: 1000px;
+	margin: auto;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+nav a {
+	transition: 0.25s;
+}
+
+nav a:hover {
+	color: #388087;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+}
+
+li {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+	text-align: center;
+}
+
+.blog-section {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.blog-card {
+	width: 800px;
+	margin-bottom: 40px;
+}
+
+.photo {
+	width: 450px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.post-title {
+	margin-left: 20px;
+}
+
+h3 {
+	margin-top: 5px;
+}
+
+h6 {
+	color: #388087;
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.subtext {
+	margin: 20px;
+}
+
+.footer-text {
+	font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+.container {
+	width: 100%;
+	margin: auto;
+}
+}
