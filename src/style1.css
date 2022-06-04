@@ -93,4 +93,12 @@ h6 {
 .photo {
 	width: 100%;
 }
+
+.subtext {
+	margin: 10px;
+}
+
+p {
+	font-size: 15px;
+}
 }
