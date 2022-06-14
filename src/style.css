@@ -14,7 +14,7 @@ nav {
 }
 
 nav a {
-	transition: 0.25s;
+	transition: 0.1s;
 }
 
 nav a:hover {
@@ -84,6 +84,15 @@ h6 {
 
 footer {
 	font-weight: 300;
+}
+
+.social {
+	width: 30px;
+	padding: 5px;
+}
+
+.social:hover {
+	filter: brightness(0) saturate(100%) invert(42%) sepia(56%) saturate(400%) hue-rotate(137deg) brightness(93%) contrast(89%);
 }
 
 @media only screen and (max-width: 600px) {
