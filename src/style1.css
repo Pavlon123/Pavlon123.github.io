@@ -18,7 +18,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #388087;
+	font-weight: bold;
 }
 
 ul {
