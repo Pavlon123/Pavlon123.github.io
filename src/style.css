@@ -24,10 +24,6 @@ nav {
 	padding: 10px;
 }
 
-nav a {
-	transition: 0.1s;
-}
-
 nav a:hover {
 	text-decoration: underline;
 	font-weight: bold;
