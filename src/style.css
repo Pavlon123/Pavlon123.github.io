@@ -1,6 +1,6 @@
 body {
 	color: white;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Courier New";
 	background-image: url("../Pracovna/background_a.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -29,6 +29,7 @@ nav a {
 }
 
 nav a:hover {
+	text-decoration: underline;
 	font-weight: bold;
 }
 
@@ -40,6 +41,7 @@ a {
 ul {
 	display: flex;
 	list-style-type: none;
+	font-size: 20px;
 }
 
 li {
@@ -59,7 +61,6 @@ footer {
 
 .blog-card {
 	width: 450px;
-	margin-bottom: 40px;
 }
 
 .photo {
