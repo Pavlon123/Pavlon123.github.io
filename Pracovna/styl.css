@@ -4,6 +4,7 @@ body {
 	background-image: url("background_a.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position: center;
 }
 
 .container {
@@ -48,9 +49,17 @@ h1 {
   /* For mobile phones: */
 
 .container {
-	width: 90%;
+	width: 99%;
 }
 
-li {
-	margin: 0;
+h1 {
+	font-size: 20px;
+}
+
+nav {
+	font-size: 15px;
+}
+
+section {
+	font-size: 15px;
 }

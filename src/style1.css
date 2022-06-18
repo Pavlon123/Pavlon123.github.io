@@ -1,10 +1,21 @@
 body {
+	color: white;
 	font-family: 'Open Sans', sans-serif;
+	background-image: url("../Pracovna/background_a.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 .container {
-	width: 1000px;
+	width: 805px;
 	margin: auto;
+}
+
+.box {
+	background-color: rgba(0,0,0,0.5);
+	margin-bottom: 10px;
+	border: 2px solid white;
 }
 
 nav {
@@ -33,7 +44,7 @@ li {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 footer {
@@ -48,7 +59,6 @@ footer {
 
 .blog-card {
 	width: 800px;
-	margin-bottom: 40px;
 }
 
 .photo {
@@ -66,7 +76,7 @@ h3 {
 }
 
 h6 {
-	color: #388087;
+	color: white;
 	font-size: 15px;
 	font-weight: 400;
 	margin-bottom: 5px;
