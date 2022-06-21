@@ -14,8 +14,8 @@ body {
 
 .box {
 	background-color: rgba(0,0,0,0.5);
-	margin-bottom: 10px;
-	border: 2px solid white;
+	margin-bottom: 20px;
+	border: 1px solid white;
 }
 
 nav {
@@ -56,11 +56,11 @@ footer {
 }
 
 .blog-card {
-	width: 450px;
+	width: 475px;
 }
 
 .photo {
-	width: 450px;
+	width: 475px;
 	height: 350px;
 	object-fit: cover;
 	background-size: 100%;
