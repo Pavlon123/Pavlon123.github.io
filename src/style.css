@@ -1,6 +1,6 @@
 body {
 	color: white;
-	font-family: "Courier New";
+	font-family: 'Catamaran', sans-serif;
 	background-image: url("../Pracovna/background_a.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -88,13 +88,14 @@ h6 {
 
 .subtext {
 	margin: 20px;
+	font-size: 18px;
 }
 
 footer {
 	font-weight: 300;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   /* For mobile phones: */
 .container {
 	width: 100%;
@@ -115,5 +116,32 @@ footer {
 
 p {
 	font-size: 15px;
+}
+}
+@media only screen and (max-width: 970px) {
+  /* For mobile phones: */
+.container {
+	width: 100%;
+}
+
+.blog-card {
+	display: column;
+	width: 100%;
+}
+
+.photo {
+	width: 100%;
+}
+
+.subtext {
+	margin: 10px;
+}
+
+p {
+	font-size: 15px;
+}
+
+.post-title {
+	margin-left: 10px;
 }
 }
