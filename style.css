@@ -4,7 +4,7 @@
 }
 
 .container{
-    width: 800px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -24,7 +24,7 @@
 nav {
     width: 100px;
     float: left;
-    padding: 20px;
+    margin: 20px;
 }
 
 article{
@@ -55,11 +55,16 @@ a:hover{
     font-weight: bold;
 }
 
+.image{
+    margin-left: 60px;
+}
+
 @media(max-width:768px){
     .container{
         width: auto;
         display: flex;
         flex-direction: column;
+        margin: 20px;
     }
 
     nav{
@@ -67,6 +72,12 @@ a:hover{
     }
 
     article{
-        margin-left: 20px;
+        width: auto;
+    }
+
+    .image{
+        width: 100%;
+        height: auto;
+        margin: 0;
     }
 }
