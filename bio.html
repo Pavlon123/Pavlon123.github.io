@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <head>
     <title>Ondřej Pavlík</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-    <nav>
-      <div class="logo">
-      <h1>O.</h1>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-branding">Ondřej Pavlík</a>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Domů</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://ondra512.neocities.org/" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Kontakt</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+<div class="main">
+    <article class="bio">
+      <h2>Biografie</h2>
+      <div class="photo">
+      <img src="skelethor.png" width="200px">
       </div>
+      <div class="float">
+      <p>Ondřej Pavlík - student čínského jazyka a literatury na univerzitě Palackého v Olomouci. Stále mlád a nezkušen. Otevřen všem novým příležitostem.</p>
+      </div>
+      <h2>Kontakt</h2>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Photography</a></li>
-        <li><a href="#" class="selected">Bio</a></li>
-        <li><a href="#">Text</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="">中文</a></li>
+        <li class="bullets"><a href="#" class="link">YouTube</a></li>
+        <li class="bullets"><a href="#" class="link">LINE</a></li>
+        <li class="bullets"><a href="#" class="link">IG</a></li>
+        <li class="bullets"><a href="#" class="link">Facebook</a></li>
       </ul>
-    </nav>
-    <article class="text">
-    <h1>Ondřej Pavlík</h1>
-    <h3>Biography</h3>
     </article>
-    <img src="skelethor.png" class="image">
-    <article>
-    <p>Based in Olomouc, Czechia. Major in Chinese studies. Focusing on literary translation, classical Chinese and Taiwan.</p>
-    </article>
-  </body>
+</div>
+<footer>
+	<p>2023 Ondřej Pavlík</p>
+</footer>
+<script src="script.js"></script>
+</body>
 </html>

@@ -1,32 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="cs">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ondřej Pavlík</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-    <nav>
-      <div class="logo">
-      <h1>O.</h1>
-      </div>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-branding">Ondřej Pavlík</a>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Domů</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://ondra512.neocities.org/" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="bio.html" class="nav-link">Kontakt</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+	  <article>
+      <h2>Kdo jsem?</h2>
+      <div class="main">
       <ul>
-        <li><a href="#" class="selected">Home</a></li>
-        <li><a href="#">Photography</a></li>
-        <li><a href="bio.html">Bio</a></li>
-        <li><a href="#">Text</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="">中文</a></li>
+        <li class="bullets"><a href="#" class="link">Student</a></li>
+        <li class="bullets"><a href="#" class="link">Fotograf</a></li>
+        <li class="bullets"><a href="#" class="link">Blogger</a></li>
       </ul>
-    </nav>
-      <article>
-      <div class="text">
-        <h1>Ondřej Pavlík</h1>
-        <h3>Home Page</h3>
-        <p>Welcome to my homepage, my workplace. Momentarily under construction</p>
-      </div>  
+      </div>
     </article>
-    </div>
+    <article>
+      <h2>Co se tu děje?</h2>
+      <p>Tato stránka je coby moje visitka.<br />
+      Snažím se sem doplnit nějaký text, abych nemusel scrollovat a tím pádem nenarušil celý flow navbaru.</p>
+      <p>Zároveň dokud nezlepším své frontend skilly, tak zatím zůstanu jenom u hromady textu, která by akorát zaplnila</p>
+      <p>Až nabudu dostatek praxe ve světě, hodím své úspěchy sem.</p>
+      <p>Mějte se tu hezky. Reality check potřebuji jako sůl.</p>
+    </article>
+    <footer>
+      <p>2023 Ondřej Pavlík</p>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
