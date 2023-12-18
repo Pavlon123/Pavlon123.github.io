@@ -34,6 +34,10 @@ body{
     color: white;
 }
 
+.logo a:hover {
+    text-decoration: none;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -62,8 +66,15 @@ ul {
     justify-content: center;
 }
 
+.socials-button {
+    margin-right: 10px;
+}
+
+.socials-button:hover {
+    opacity: 75%;
+}
+
 .news {
-    border: 1px solid black;
     margin-top: 10px;
     padding: 10px;
 }
@@ -167,5 +178,10 @@ ul {
         height: 300px;
         object-fit: cover;
         margin-bottom: 10px;
+    }
+
+    .pp {
+        display: block;
+        margin: auto;
     }
 }
